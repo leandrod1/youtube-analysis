@@ -41,6 +41,12 @@ The extraction workflow is split into three core functions:
 
 ---
 
+## 👤 Author 
+
+Leandro Soares: [LinkedIn Profile](https://www.linkedin.com/in/leandro-soares-91912097/)
+
+---
+
 ## 🚀 How to Run
 1. **Clone the repository:**
    ```bash
