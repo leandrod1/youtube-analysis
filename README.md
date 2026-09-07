@@ -1,7 +1,7 @@
 # 🎥 YouTube Channels EDA & NLP Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](youtube-project-with-notes.ipynb)
-[![YouTube API](https://img.shields.io/badge/YouTube%20API-v3-FF0000?style=flat&logo=youtube&logoColor=white)]()
+[![YouTube API](https://img.shields.io/badge/YouTube%20API-v3-FF0000?style=flat&logo=youtube&logoColor=white)](https://developers.google.com/youtube/v3)
 
 A Data Analysis and Natural Language Processing (NLP) project extracting real-time metrics and analyzing engagement drivers across prominent educational & critical thinking YouTube channels using the **YouTube Data API v3**.
 
