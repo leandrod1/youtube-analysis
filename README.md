@@ -44,5 +44,5 @@ The extraction workflow is split into three core functions:
 ## 🚀 How to Run
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-   cd tu-repositorio
+   git clone [https://github.com/leandrod1/youtube-analysis.git](https://github.com/leandrod1/youtube-analysis.git)
+   cd youtube-analysis
