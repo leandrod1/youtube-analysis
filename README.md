@@ -13,6 +13,8 @@ A Data Analysis and Natural Language Processing (NLP) project extracting real-ti
 * **Some More News** (Political Satire & Current Events)
 * **Adam Conover** (Educational Comedy & Debunking)
 
+> ℹ️ **Data Snapshot Note:** All channel metrics, video engagement stats, and video title metadata were extracted using the YouTube Data API v3 in **July 2023**.
+
 ---
 
 ## 🎯 Project Aims & Objectives
