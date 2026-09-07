@@ -1,3 +1,50 @@
-## Youtube Analysis
+# 🎥 YouTube Channels EDA & NLP Analysis
 
-This small-scale project entails exploratory data analysis conducted exclusively using Python and Jupyter Notebook. The analysis focuses on YouTube video data sourced from various critical thinking channels.
+A Data Analysis and Natural Language Processing (NLP) project extracting real-time metrics and analyzing engagement drivers across prominent educational & critical thinking YouTube channels using the **YouTube Data API v3**.
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
+![YouTube API](https://img.shields.io/badge/YouTube%20API-v3-FF0000?style=flat&logo=youtube&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat&logo=pandas&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-NLTK%20%26%20WordCloud-4B0082?style=flat&logo=python&logoColor=white)
+
+---
+
+## 📌 Channels Included in Scope
+* **Johnny Harris** (Geo-politics, Visual Journalism)
+* **Wisecrack** (Pop Culture, Philosophy & Media Analysis)
+* **Some More News** (Political Satire & Current Events)
+* **Adam Conover** (Educational Comedy & Debunking)
+
+---
+
+## 🎯 Project Aims & Objectives
+1. **API Data Pipeline:** Build custom modular Python functions to query Google's YouTube Data API v3 (`channels`, `playlistItems`, `videos` endpoints) and parse nested JSON responses into clean Pandas DataFrames.
+2. **Hypothesis Testing & "Myth-Busting":** Evaluate common YouTube growth assumptions:
+   * Do likes and comments correlate directly with higher view counts?
+   * Does video duration impact interaction rates or total views?
+   * How does title character length affect performance?
+3. **Text Mining & Topic Modeling (NLP):** Clean and tokenize video title metadata using **NLTK** (stop-word removal, text normalization) to build frequency distributions and **WordClouds** highlighting viral content themes.
+
+---
+
+## 🛠️ Tech Stack & Tools
+* **Data Extraction:** `googleapiclient.discovery` (YouTube Data API v3)
+* **Data Manipulation:** `pandas`, `numpy`, `isodate`, `python-dateutil`
+* **Data Visualization:** `matplotlib`, `seaborn`
+* **Natural Language Processing:** `nltk` (tokenization, stop-words), `wordcloud`
+
+---
+
+## 💡 Key Pipeline Implementation
+The extraction workflow is split into three core functions:
+* `get_channel_stats()`: Fetches global subscriber counts, total views, video count, and upload playlist IDs.
+* `get_video_ids()`: Implements pagination handling (`nextPageToken`) to retrieve every video ID within a target channel playlist.
+* `get_video_details()`: Batches API requests in chunks of 50 to extract metadata (`title`, `tags`, `publishedAt`, `duration`) and engagement statistics (`viewCount`, `likeCount`, `commentCount`).
+
+---
+
+## 🚀 How to Run
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+   cd tu-repositorio
